@@ -1,6 +1,6 @@
 FROM ubuntu
 RUN apt-get update
-docker pull jenkins/jenkins
+RUN apt inastall -y nginx
 EXPOSE 80
 WORKDIR /var/www/
 RUN echo "avinash"
